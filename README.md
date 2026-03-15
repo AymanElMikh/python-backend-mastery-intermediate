@@ -7,7 +7,7 @@
 
 ## 📊 Progress
 
-![Concepts Covered](https://img.shields.io/badge/concepts%20covered-10-blue)
+![Concepts Covered](https://img.shields.io/badge/concepts%20covered-20-blue)
 ![Categories](https://img.shields.io/badge/categories-15-blue)
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 
@@ -38,6 +38,16 @@ based on what roles you're interviewing for.
 | 008 | python_core | Type Hints — Annotations in Practice | [python_core/008_type_hints](python_core/008_type_hints) | 2026-03-15 |
 | 009 | python_core | Iterators vs Iterables | [python_core/009_iterators_iterables](python_core/009_iterators_iterables) | 2026-03-15 |
 | 010 | python_core | functools — lru_cache, partial, wraps | [python_core/010_functools_basics](python_core/010_functools_basics) | 2026-03-15 |
+| 011 | oop | Classes and `__init__` — Building Objects | [oop/011_classes_and_init](oop/011_classes_and_init) | 2026-03-15 |
+| 012 | oop | Inheritance and `super()` | [oop/012_inheritance_super](oop/012_inheritance_super) | 2026-03-15 |
+| 013 | oop | Dunder Methods | [oop/013_dunder_methods](oop/013_dunder_methods) | 2026-03-15 |
+| 014 | oop | Abstract Base Classes | [oop/014_abstract_base_classes](oop/014_abstract_base_classes) | 2026-03-15 |
+| 015 | oop | Composition vs Inheritance | [oop/015_composition_vs_inheritance](oop/015_composition_vs_inheritance) | 2026-03-15 |
+| 016 | oop | @classmethod and @staticmethod | [oop/016_classmethod_staticmethod](oop/016_classmethod_staticmethod) | 2026-03-15 |
+| 017 | oop | Properties — `@property` | [oop/017_properties](oop/017_properties) | 2026-03-15 |
+| 018 | oop | dataclasses | [oop/018_dataclasses](oop/018_dataclasses) | 2026-03-15 |
+| 019 | oop | `__slots__` — Memory Optimization | [oop/019_slots](oop/019_slots) | 2026-03-15 |
+| 020 | oop | Mixin Pattern | [oop/020_mixin_pattern](oop/020_mixin_pattern) | 2026-03-15 |
 
 ---
 
@@ -46,6 +56,7 @@ based on what roles you're interviewing for.
 | Session | Date | Category | IDs Covered | Concepts Added |
 |---------|------|----------|-------------|----------------|
 | 1 | 2026-03-15 | python_core | 001–010 | 10 |
+| 2 | 2026-03-15 | oop | 011–020 | 10 |
 
 ---
 
@@ -54,7 +65,7 @@ based on what roles you're interviewing for.
 | # | Category Key | Focus Area | Covered |
 |---|--------------|------------|---------|
 | 1 | `python_core` | Decorators, generators, closures, context managers, comprehensions | **10** |
-| 2 | `oop` | Classes, inheritance, super(), dunder methods, composition | 0 |
+| 2 | `oop` | Classes, inheritance, super(), dunder methods, composition | **10** |
 | 3 | `design_patterns` | Factory, Singleton, Strategy, Decorator pattern | 0 |
 | 4 | `clean_architecture` | Separation of concerns, service layer, repository pattern | 0 |
 | 5 | `fastapi` | Routes, Pydantic, dependency injection basics, status codes | 0 |

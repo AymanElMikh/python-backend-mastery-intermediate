@@ -2,10 +2,10 @@
     "agent_level": "intermediate",
     "target_experience": "2-3 years",
     "last_updated": "2026-03-15",
-    "total_covered": 10,
+    "total_covered": 20,
     "categories": {
       "python_core": 10,
-      "oop": 0,
+      "oop": 10,
       "design_patterns": 0,
       "clean_architecture": 0,
       "fastapi": 0,
@@ -99,6 +99,86 @@
         "slug": "functools_basics",
         "title": "functools — lru_cache, partial, wraps",
         "folder": "python_core/010_functools_basics",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "011",
+        "category": "oop",
+        "slug": "classes_and_init",
+        "title": "Classes and `__init__` — Building Objects in Python",
+        "folder": "oop/011_classes_and_init",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "012",
+        "category": "oop",
+        "slug": "inheritance_super",
+        "title": "Inheritance and `super()` — Building on Existing Classes",
+        "folder": "oop/012_inheritance_super",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "013",
+        "category": "oop",
+        "slug": "dunder_methods",
+        "title": "Dunder Methods — Making Objects Behave Like Python Builtins",
+        "folder": "oop/013_dunder_methods",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "014",
+        "category": "oop",
+        "slug": "abstract_base_classes",
+        "title": "Abstract Base Classes — Enforcing Interfaces in Python",
+        "folder": "oop/014_abstract_base_classes",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "015",
+        "category": "oop",
+        "slug": "composition_vs_inheritance",
+        "title": "Composition vs Inheritance — Choosing the Right Relationship",
+        "folder": "oop/015_composition_vs_inheritance",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "016",
+        "category": "oop",
+        "slug": "classmethod_staticmethod",
+        "title": "@classmethod and @staticmethod — Alternative Constructors and Utilities",
+        "folder": "oop/016_classmethod_staticmethod",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "017",
+        "category": "oop",
+        "slug": "properties",
+        "title": "Properties — Controlled Attribute Access with `@property`",
+        "folder": "oop/017_properties",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "018",
+        "category": "oop",
+        "slug": "dataclasses",
+        "title": "dataclasses — Auto-Generated `__init__`, `__repr__`, and More",
+        "folder": "oop/018_dataclasses",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "019",
+        "category": "oop",
+        "slug": "slots",
+        "title": "`__slots__` — Reducing Memory Overhead for High-Volume Classes",
+        "folder": "oop/019_slots",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "020",
+        "category": "oop",
+        "slug": "mixin_pattern",
+        "title": "Mixin Pattern — Adding Capabilities Without Deep Hierarchies",
+        "folder": "oop/020_mixin_pattern",
         "date_covered": "2026-03-15"
       }
     ]
