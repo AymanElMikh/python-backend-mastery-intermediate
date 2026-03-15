@@ -1,0 +1,105 @@
+{
+    "agent_level": "intermediate",
+    "target_experience": "2-3 years",
+    "last_updated": "2026-03-15",
+    "total_covered": 10,
+    "categories": {
+      "python_core": 10,
+      "oop": 0,
+      "design_patterns": 0,
+      "clean_architecture": 0,
+      "fastapi": 0,
+      "flask": 0,
+      "unit_tests": 0,
+      "async_python": 0,
+      "databases": 0,
+      "security": 0,
+      "performance": 0,
+      "devops_backend": 0,
+      "data_structures_algorithms": 0,
+      "api_design": 0,
+      "testing_advanced": 0
+    },
+    "concepts": [
+      {
+        "id": "001",
+        "category": "python_core",
+        "slug": "decorators_basics",
+        "title": "Decorators — How and Why",
+        "folder": "python_core/001_decorators_basics",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "002",
+        "category": "python_core",
+        "slug": "context_managers",
+        "title": "Context Managers — The `with` Statement",
+        "folder": "python_core/002_context_managers",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "003",
+        "category": "python_core",
+        "slug": "generators_yield",
+        "title": "Generators — Lazy Iteration with `yield`",
+        "folder": "python_core/003_generators_yield",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "004",
+        "category": "python_core",
+        "slug": "closures",
+        "title": "Closures — Functions That Remember",
+        "folder": "python_core/004_closures",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "005",
+        "category": "python_core",
+        "slug": "args_kwargs",
+        "title": "*args and **kwargs — Flexible Signatures",
+        "folder": "python_core/005_args_kwargs",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "006",
+        "category": "python_core",
+        "slug": "comprehensions",
+        "title": "Comprehensions — List, Dict, Set",
+        "folder": "python_core/006_comprehensions",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "007",
+        "category": "python_core",
+        "slug": "exception_handling",
+        "title": "Exception Handling Patterns",
+        "folder": "python_core/007_exception_handling",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "008",
+        "category": "python_core",
+        "slug": "type_hints",
+        "title": "Type Hints — Annotations in Practice",
+        "folder": "python_core/008_type_hints",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "009",
+        "category": "python_core",
+        "slug": "iterators_iterables",
+        "title": "Iterators vs Iterables",
+        "folder": "python_core/009_iterators_iterables",
+        "date_covered": "2026-03-15"
+      },
+      {
+        "id": "010",
+        "category": "python_core",
+        "slug": "functools_basics",
+        "title": "functools — lru_cache, partial, wraps",
+        "folder": "python_core/010_functools_basics",
+        "date_covered": "2026-03-15"
+      }
+    ]
+  }
