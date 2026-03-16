@@ -1,185 +1,422 @@
 {
-    "agent_level": "intermediate",
-    "target_experience": "2-3 years",
-    "last_updated": "2026-03-15",
-    "total_covered": 20,
-    "categories": {
-      "python_core": 10,
-      "oop": 10,
-      "design_patterns": 0,
-      "clean_architecture": 0,
-      "fastapi": 0,
-      "flask": 0,
-      "unit_tests": 0,
-      "async_python": 0,
-      "databases": 0,
-      "security": 0,
-      "performance": 0,
-      "devops_backend": 0,
-      "data_structures_algorithms": 0,
-      "api_design": 0,
-      "testing_advanced": 0
+  "agent_level": "intermediate",
+  "target_experience": "2-3 years",
+  "last_updated": "2026-03-15",
+  "total_covered": 50,
+  "categories": {
+    "python_core": 10,
+    "oop": 10,
+    "design_patterns": 10,
+    "clean_architecture": 10,
+    "fastapi": 10,
+    "flask": 0,
+    "unit_tests": 0,
+    "async_python": 0,
+    "databases": 0,
+    "security": 0,
+    "performance": 0,
+    "api_design": 0
+  },
+  "concepts": [
+    {
+      "id": "001",
+      "category": "python_core",
+      "slug": "decorators_basics",
+      "title": "Decorators — How and Why",
+      "folder": "python_core/001_decorators_basics",
+      "date_covered": "2026-03-15"
     },
-    "concepts": [
-      {
-        "id": "001",
-        "category": "python_core",
-        "slug": "decorators_basics",
-        "title": "Decorators — How and Why",
-        "folder": "python_core/001_decorators_basics",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "002",
-        "category": "python_core",
-        "slug": "context_managers",
-        "title": "Context Managers — The `with` Statement",
-        "folder": "python_core/002_context_managers",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "003",
-        "category": "python_core",
-        "slug": "generators_yield",
-        "title": "Generators — Lazy Iteration with `yield`",
-        "folder": "python_core/003_generators_yield",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "004",
-        "category": "python_core",
-        "slug": "closures",
-        "title": "Closures — Functions That Remember",
-        "folder": "python_core/004_closures",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "005",
-        "category": "python_core",
-        "slug": "args_kwargs",
-        "title": "*args and **kwargs — Flexible Signatures",
-        "folder": "python_core/005_args_kwargs",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "006",
-        "category": "python_core",
-        "slug": "comprehensions",
-        "title": "Comprehensions — List, Dict, Set",
-        "folder": "python_core/006_comprehensions",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "007",
-        "category": "python_core",
-        "slug": "exception_handling",
-        "title": "Exception Handling Patterns",
-        "folder": "python_core/007_exception_handling",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "008",
-        "category": "python_core",
-        "slug": "type_hints",
-        "title": "Type Hints — Annotations in Practice",
-        "folder": "python_core/008_type_hints",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "009",
-        "category": "python_core",
-        "slug": "iterators_iterables",
-        "title": "Iterators vs Iterables",
-        "folder": "python_core/009_iterators_iterables",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "010",
-        "category": "python_core",
-        "slug": "functools_basics",
-        "title": "functools — lru_cache, partial, wraps",
-        "folder": "python_core/010_functools_basics",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "011",
-        "category": "oop",
-        "slug": "classes_and_init",
-        "title": "Classes and `__init__` — Building Objects in Python",
-        "folder": "oop/011_classes_and_init",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "012",
-        "category": "oop",
-        "slug": "inheritance_super",
-        "title": "Inheritance and `super()` — Building on Existing Classes",
-        "folder": "oop/012_inheritance_super",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "013",
-        "category": "oop",
-        "slug": "dunder_methods",
-        "title": "Dunder Methods — Making Objects Behave Like Python Builtins",
-        "folder": "oop/013_dunder_methods",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "014",
-        "category": "oop",
-        "slug": "abstract_base_classes",
-        "title": "Abstract Base Classes — Enforcing Interfaces in Python",
-        "folder": "oop/014_abstract_base_classes",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "015",
-        "category": "oop",
-        "slug": "composition_vs_inheritance",
-        "title": "Composition vs Inheritance — Choosing the Right Relationship",
-        "folder": "oop/015_composition_vs_inheritance",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "016",
-        "category": "oop",
-        "slug": "classmethod_staticmethod",
-        "title": "@classmethod and @staticmethod — Alternative Constructors and Utilities",
-        "folder": "oop/016_classmethod_staticmethod",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "017",
-        "category": "oop",
-        "slug": "properties",
-        "title": "Properties — Controlled Attribute Access with `@property`",
-        "folder": "oop/017_properties",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "018",
-        "category": "oop",
-        "slug": "dataclasses",
-        "title": "dataclasses — Auto-Generated `__init__`, `__repr__`, and More",
-        "folder": "oop/018_dataclasses",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "019",
-        "category": "oop",
-        "slug": "slots",
-        "title": "`__slots__` — Reducing Memory Overhead for High-Volume Classes",
-        "folder": "oop/019_slots",
-        "date_covered": "2026-03-15"
-      },
-      {
-        "id": "020",
-        "category": "oop",
-        "slug": "mixin_pattern",
-        "title": "Mixin Pattern — Adding Capabilities Without Deep Hierarchies",
-        "folder": "oop/020_mixin_pattern",
-        "date_covered": "2026-03-15"
-      }
-    ]
-  }
+    {
+      "id": "002",
+      "category": "python_core",
+      "slug": "context_managers",
+      "title": "Context Managers — The `with` Statement",
+      "folder": "python_core/002_context_managers",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "003",
+      "category": "python_core",
+      "slug": "generators_yield",
+      "title": "Generators — Lazy Iteration with `yield`",
+      "folder": "python_core/003_generators_yield",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "004",
+      "category": "python_core",
+      "slug": "closures",
+      "title": "Closures — Functions That Remember",
+      "folder": "python_core/004_closures",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "005",
+      "category": "python_core",
+      "slug": "args_kwargs",
+      "title": "*args and **kwargs — Flexible Signatures",
+      "folder": "python_core/005_args_kwargs",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "006",
+      "category": "python_core",
+      "slug": "comprehensions",
+      "title": "Comprehensions — List, Dict, Set",
+      "folder": "python_core/006_comprehensions",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "007",
+      "category": "python_core",
+      "slug": "exception_handling",
+      "title": "Exception Handling Patterns",
+      "folder": "python_core/007_exception_handling",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "008",
+      "category": "python_core",
+      "slug": "type_hints",
+      "title": "Type Hints — Annotations in Practice",
+      "folder": "python_core/008_type_hints",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "009",
+      "category": "python_core",
+      "slug": "iterators_iterables",
+      "title": "Iterators vs Iterables",
+      "folder": "python_core/009_iterators_iterables",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "010",
+      "category": "python_core",
+      "slug": "functools_basics",
+      "title": "functools — lru_cache, partial, wraps",
+      "folder": "python_core/010_functools_basics",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "011",
+      "category": "oop",
+      "slug": "classes_and_init",
+      "title": "Classes and `__init__` — Building Objects in Python",
+      "folder": "oop/011_classes_and_init",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "012",
+      "category": "oop",
+      "slug": "inheritance_super",
+      "title": "Inheritance and `super()` — Building on Existing Classes",
+      "folder": "oop/012_inheritance_super",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "013",
+      "category": "oop",
+      "slug": "dunder_methods",
+      "title": "Dunder Methods — Making Objects Behave Like Python Builtins",
+      "folder": "oop/013_dunder_methods",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "014",
+      "category": "oop",
+      "slug": "abstract_base_classes",
+      "title": "Abstract Base Classes — Enforcing Interfaces in Python",
+      "folder": "oop/014_abstract_base_classes",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "015",
+      "category": "oop",
+      "slug": "composition_vs_inheritance",
+      "title": "Composition vs Inheritance — Choosing the Right Relationship",
+      "folder": "oop/015_composition_vs_inheritance",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "016",
+      "category": "oop",
+      "slug": "classmethod_staticmethod",
+      "title": "@classmethod and @staticmethod — Alternative Constructors and Utilities",
+      "folder": "oop/016_classmethod_staticmethod",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "017",
+      "category": "oop",
+      "slug": "properties",
+      "title": "Properties — Controlled Attribute Access with `@property`",
+      "folder": "oop/017_properties",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "018",
+      "category": "oop",
+      "slug": "dataclasses",
+      "title": "dataclasses — Auto-Generated `__init__`, `__repr__`, and More",
+      "folder": "oop/018_dataclasses",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "019",
+      "category": "oop",
+      "slug": "slots",
+      "title": "`__slots__` — Reducing Memory Overhead for High-Volume Classes",
+      "folder": "oop/019_slots",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "020",
+      "category": "oop",
+      "slug": "mixin_pattern",
+      "title": "Mixin Pattern — Adding Capabilities Without Deep Hierarchies",
+      "folder": "oop/020_mixin_pattern",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "021",
+      "category": "design_patterns",
+      "slug": "factory_pattern",
+      "title": "Factory Pattern — Centralized Object Creation",
+      "folder": "design_patterns/021_factory_pattern",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "022",
+      "category": "design_patterns",
+      "slug": "singleton_pattern",
+      "title": "Singleton Pattern — One Instance for the Whole App",
+      "folder": "design_patterns/022_singleton_pattern",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "023",
+      "category": "design_patterns",
+      "slug": "strategy_pattern",
+      "title": "Strategy Pattern — Swappable Algorithms",
+      "folder": "design_patterns/023_strategy_pattern",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "024",
+      "category": "design_patterns",
+      "slug": "decorator_pattern",
+      "title": "Decorator Pattern (Design Pattern) — Stackable Behavior Wrappers",
+      "folder": "design_patterns/024_decorator_pattern",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "025",
+      "category": "design_patterns",
+      "slug": "observer_pattern",
+      "title": "Observer Pattern — Event-Driven Notification",
+      "folder": "design_patterns/025_observer_pattern",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "026",
+      "category": "design_patterns",
+      "slug": "repository_pattern",
+      "title": "Repository Pattern — Decoupling Business Logic from the Database",
+      "folder": "design_patterns/026_repository_pattern",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "027",
+      "category": "design_patterns",
+      "slug": "builder_pattern",
+      "title": "Builder Pattern — Step-by-Step Object Construction",
+      "folder": "design_patterns/027_builder_pattern",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "028",
+      "category": "design_patterns",
+      "slug": "command_pattern",
+      "title": "Command Pattern — Actions as Objects",
+      "folder": "design_patterns/028_command_pattern",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "029",
+      "category": "design_patterns",
+      "slug": "template_method",
+      "title": "Template Method Pattern — Fixed Algorithm, Customizable Steps",
+      "folder": "design_patterns/029_template_method",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "030",
+      "category": "design_patterns",
+      "slug": "adapter_pattern",
+      "title": "Adapter Pattern — Making Incompatible Interfaces Work Together",
+      "folder": "design_patterns/030_adapter_pattern",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "031",
+      "category": "clean_architecture",
+      "slug": "separation_of_concerns",
+      "title": "Separation of Concerns — One Layer, One Job",
+      "folder": "clean_architecture/031_separation_of_concerns",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "032",
+      "category": "clean_architecture",
+      "slug": "three_layer_architecture",
+      "title": "Three-Layer Architecture — Routes, Services, Repositories",
+      "folder": "clean_architecture/032_three_layer_architecture",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "033",
+      "category": "clean_architecture",
+      "slug": "dependency_injection",
+      "title": "Dependency Injection — Testable, Swappable Dependencies",
+      "folder": "clean_architecture/033_dependency_injection",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "034",
+      "category": "clean_architecture",
+      "slug": "dto_pattern",
+      "title": "DTO Pattern — Safe Data Transfer Between Layers",
+      "folder": "clean_architecture/034_dto_pattern",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "035",
+      "category": "clean_architecture",
+      "slug": "service_layer",
+      "title": "Service Layer — Where Business Logic Lives",
+      "folder": "clean_architecture/035_service_layer",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "036",
+      "category": "clean_architecture",
+      "slug": "settings_config",
+      "title": "Settings & Configuration Management — Environment Variables Done Right",
+      "folder": "clean_architecture/036_settings_config",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "037",
+      "category": "clean_architecture",
+      "slug": "domain_vs_db_model",
+      "title": "Domain Model vs Database Model — Keeping Them Separate",
+      "folder": "clean_architecture/037_domain_vs_db_model",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "038",
+      "category": "clean_architecture",
+      "slug": "custom_exceptions",
+      "title": "Custom Exceptions — Domain Error Hierarchy",
+      "folder": "clean_architecture/038_custom_exceptions",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "039",
+      "category": "clean_architecture",
+      "slug": "app_factory",
+      "title": "Application Factory Pattern — Configurable, Testable App Creation",
+      "folder": "clean_architecture/039_app_factory",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "040",
+      "category": "clean_architecture",
+      "slug": "interface_segregation",
+      "title": "Interface Segregation — Focused, Role-Specific Interfaces",
+      "folder": "clean_architecture/040_interface_segregation",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "041",
+      "category": "fastapi",
+      "slug": "routes_path_params",
+      "title": "Routes & Path Parameters — URL-Based Resource Identification",
+      "folder": "fastapi/041_routes_path_params",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "042",
+      "category": "fastapi",
+      "slug": "query_params",
+      "title": "Query Parameters — Filtering, Pagination, and Options",
+      "folder": "fastapi/042_query_params",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "043",
+      "category": "fastapi",
+      "slug": "pydantic_models",
+      "title": "Pydantic Models — Request Parsing and Response Serialization",
+      "folder": "fastapi/043_pydantic_models",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "044",
+      "category": "fastapi",
+      "slug": "depends_di",
+      "title": "Depends() — FastAPI's Built-in Dependency Injection",
+      "folder": "fastapi/044_depends_di",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "045",
+      "category": "fastapi",
+      "slug": "status_codes_responses",
+      "title": "HTTP Status Codes & Response Customization",
+      "folder": "fastapi/045_status_codes_responses",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "046",
+      "category": "fastapi",
+      "slug": "http_exception",
+      "title": "HTTPException & Global Exception Handlers",
+      "folder": "fastapi/046_http_exception",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "047",
+      "category": "fastapi",
+      "slug": "routers_tags",
+      "title": "APIRouter & Tags — Organizing a Growing FastAPI App",
+      "folder": "fastapi/047_routers_tags",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "048",
+      "category": "fastapi",
+      "slug": "request_validation",
+      "title": "Request Validation — Field(), Query(), and Custom Validators",
+      "folder": "fastapi/048_request_validation",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "049",
+      "category": "fastapi",
+      "slug": "background_tasks",
+      "title": "Background Tasks — Post-Response Side Effects",
+      "folder": "fastapi/049_background_tasks",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "050",
+      "category": "fastapi",
+      "slug": "middleware_basics",
+      "title": "Middleware Basics — Cross-Cutting Request/Response Logic",
+      "folder": "fastapi/050_middleware_basics",
+      "date_covered": "2026-03-15"
+    }
+  ]
+}

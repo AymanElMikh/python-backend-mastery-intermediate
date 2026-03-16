@@ -7,7 +7,7 @@
 
 ## 📊 Progress
 
-![Concepts Covered](https://img.shields.io/badge/concepts%20covered-20-blue)
+![Concepts Covered](https://img.shields.io/badge/concepts%20covered-50-blue)
 ![Categories](https://img.shields.io/badge/categories-15-blue)
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 
@@ -16,7 +16,7 @@
 ## 🗺️ Recommended Learning Path
 
 ```
-python_core → oop → databases → fastapi → unit_tests → async_python → ...
+python_core → oop → design_patterns → databases → fastapi → unit_tests → async_python → ...
 ```
 
 Start with the first three to build a solid foundation, then mix freely
@@ -48,6 +48,36 @@ based on what roles you're interviewing for.
 | 018 | oop | dataclasses | [oop/018_dataclasses](oop/018_dataclasses) | 2026-03-15 |
 | 019 | oop | `__slots__` — Memory Optimization | [oop/019_slots](oop/019_slots) | 2026-03-15 |
 | 020 | oop | Mixin Pattern | [oop/020_mixin_pattern](oop/020_mixin_pattern) | 2026-03-15 |
+| 021 | design_patterns | Factory Pattern — Centralized Object Creation | [design_patterns/021_factory_pattern](design_patterns/021_factory_pattern) | 2026-03-15 |
+| 022 | design_patterns | Singleton Pattern — One Instance for the Whole App | [design_patterns/022_singleton_pattern](design_patterns/022_singleton_pattern) | 2026-03-15 |
+| 023 | design_patterns | Strategy Pattern — Swappable Algorithms | [design_patterns/023_strategy_pattern](design_patterns/023_strategy_pattern) | 2026-03-15 |
+| 024 | design_patterns | Decorator Pattern (Design Pattern) — Stackable Behavior Wrappers | [design_patterns/024_decorator_pattern](design_patterns/024_decorator_pattern) | 2026-03-15 |
+| 025 | design_patterns | Observer Pattern — Event-Driven Notification | [design_patterns/025_observer_pattern](design_patterns/025_observer_pattern) | 2026-03-15 |
+| 026 | design_patterns | Repository Pattern — Decoupling Business Logic from the Database | [design_patterns/026_repository_pattern](design_patterns/026_repository_pattern) | 2026-03-15 |
+| 027 | design_patterns | Builder Pattern — Step-by-Step Object Construction | [design_patterns/027_builder_pattern](design_patterns/027_builder_pattern) | 2026-03-15 |
+| 028 | design_patterns | Command Pattern — Actions as Objects | [design_patterns/028_command_pattern](design_patterns/028_command_pattern) | 2026-03-15 |
+| 029 | design_patterns | Template Method Pattern — Fixed Algorithm, Customizable Steps | [design_patterns/029_template_method](design_patterns/029_template_method) | 2026-03-15 |
+| 030 | design_patterns | Adapter Pattern — Making Incompatible Interfaces Work Together | [design_patterns/030_adapter_pattern](design_patterns/030_adapter_pattern) | 2026-03-15 |
+| 031 | clean_architecture | Separation of Concerns — One Layer, One Job | [clean_architecture/031_separation_of_concerns](clean_architecture/031_separation_of_concerns) | 2026-03-15 |
+| 032 | clean_architecture | Three-Layer Architecture — Routes, Services, Repositories | [clean_architecture/032_three_layer_architecture](clean_architecture/032_three_layer_architecture) | 2026-03-15 |
+| 033 | clean_architecture | Dependency Injection — Testable, Swappable Dependencies | [clean_architecture/033_dependency_injection](clean_architecture/033_dependency_injection) | 2026-03-15 |
+| 034 | clean_architecture | DTO Pattern — Safe Data Transfer Between Layers | [clean_architecture/034_dto_pattern](clean_architecture/034_dto_pattern) | 2026-03-15 |
+| 035 | clean_architecture | Service Layer — Where Business Logic Lives | [clean_architecture/035_service_layer](clean_architecture/035_service_layer) | 2026-03-15 |
+| 036 | clean_architecture | Settings & Configuration Management | [clean_architecture/036_settings_config](clean_architecture/036_settings_config) | 2026-03-15 |
+| 037 | clean_architecture | Domain Model vs Database Model | [clean_architecture/037_domain_vs_db_model](clean_architecture/037_domain_vs_db_model) | 2026-03-15 |
+| 038 | clean_architecture | Custom Exceptions — Domain Error Hierarchy | [clean_architecture/038_custom_exceptions](clean_architecture/038_custom_exceptions) | 2026-03-15 |
+| 039 | clean_architecture | Application Factory Pattern | [clean_architecture/039_app_factory](clean_architecture/039_app_factory) | 2026-03-15 |
+| 040 | clean_architecture | Interface Segregation — Focused Interfaces | [clean_architecture/040_interface_segregation](clean_architecture/040_interface_segregation) | 2026-03-15 |
+| 041 | fastapi | Routes & Path Parameters | [fastapi/041_routes_path_params](fastapi/041_routes_path_params) | 2026-03-15 |
+| 042 | fastapi | Query Parameters — Filtering, Pagination, Options | [fastapi/042_query_params](fastapi/042_query_params) | 2026-03-15 |
+| 043 | fastapi | Pydantic Models — Request Parsing & Response Serialization | [fastapi/043_pydantic_models](fastapi/043_pydantic_models) | 2026-03-15 |
+| 044 | fastapi | Depends() — FastAPI's Built-in Dependency Injection | [fastapi/044_depends_di](fastapi/044_depends_di) | 2026-03-15 |
+| 045 | fastapi | HTTP Status Codes & Response Customization | [fastapi/045_status_codes_responses](fastapi/045_status_codes_responses) | 2026-03-15 |
+| 046 | fastapi | HTTPException & Global Exception Handlers | [fastapi/046_http_exception](fastapi/046_http_exception) | 2026-03-15 |
+| 047 | fastapi | APIRouter & Tags — Organizing a Growing FastAPI App | [fastapi/047_routers_tags](fastapi/047_routers_tags) | 2026-03-15 |
+| 048 | fastapi | Request Validation — Field(), Query(), Custom Validators | [fastapi/048_request_validation](fastapi/048_request_validation) | 2026-03-15 |
+| 049 | fastapi | Background Tasks — Post-Response Side Effects | [fastapi/049_background_tasks](fastapi/049_background_tasks) | 2026-03-15 |
+| 050 | fastapi | Middleware Basics — Cross-Cutting Request/Response Logic | [fastapi/050_middleware_basics](fastapi/050_middleware_basics) | 2026-03-15 |
 
 ---
 
@@ -57,6 +87,9 @@ based on what roles you're interviewing for.
 |---------|------|----------|-------------|----------------|
 | 1 | 2026-03-15 | python_core | 001–010 | 10 |
 | 2 | 2026-03-15 | oop | 011–020 | 10 |
+| 3 | 2026-03-15 | design_patterns | 021–030 | 10 |
+| 4 | 2026-03-15 | clean_architecture | 031–040 | 10 |
+| 5 | 2026-03-15 | fastapi | 041–050 | 10 |
 
 ---
 
@@ -66,16 +99,15 @@ based on what roles you're interviewing for.
 |---|--------------|------------|---------|
 | 1 | `python_core` | Decorators, generators, closures, context managers, comprehensions | **10** |
 | 2 | `oop` | Classes, inheritance, super(), dunder methods, composition | **10** |
-| 3 | `design_patterns` | Factory, Singleton, Strategy, Decorator pattern | 0 |
-| 4 | `clean_architecture` | Separation of concerns, service layer, repository pattern | 0 |
-| 5 | `fastapi` | Routes, Pydantic, dependency injection basics, status codes | 0 |
+| 3 | `design_patterns` | Factory, Singleton, Strategy, Decorator, Observer, Repository, Builder, Command, Template Method, Adapter | **10** |
+| 4 | `clean_architecture` | Separation of concerns, 3-layer arch, DI, DTOs, service layer, settings, domain/DB model, exceptions, app factory, ISP | **10** |
+| 5 | `fastapi` | Routes, path/query params, Pydantic, Depends, status codes, HTTPException, APIRouter, validation, background tasks, middleware | **10** |
 | 6 | `flask` | Blueprints, request/response cycle, SQLAlchemy integration | 0 |
 | 7 | `unit_tests` | pytest, fixtures, mocking, parametrize | 0 |
 | 8 | `async_python` | async/await, asyncio basics, tasks, when to use async | 0 |
 | 9 | `databases` | SQLAlchemy ORM, relationships, Alembic, N+1 problem | 0 |
 | 10 | `security` | Password hashing, JWT basics, secrets in env vars | 0 |
 | 11 | `performance` | Caching basics, Redis, Celery intro | 0 |
-| 12 | `devops_backend` | Dockerfile, docker-compose, .env, basic CI | 0 |
 | 13 | `data_structures_algorithms` | List/dict/set complexity, common backend patterns | 0 |
 | 14 | `api_design` | REST conventions, HTTP verbs, status codes, pagination | 0 |
 | 15 | `testing_advanced` | Integration tests, testing routes, test DB setup | 0 |
@@ -112,4 +144,5 @@ Each session generates 10 concepts. Each concept gets its own folder with:
 ```bash
 # Run any demo
 python python_core/001_decorators_basics/demo.py
+python design_patterns/021_factory_pattern/demo.py
 ```

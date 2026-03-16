@@ -55,8 +55,6 @@ If it's too basic (what is a list, for loop syntax) → SKIP, already known.
 | databases             | SQLAlchemy basics, relationships, simple queries, migrations with Alembic, what is N+1 | Query plan optimization, connection pool tuning |
 | security              | Hashing passwords (bcrypt), JWT basics, HTTPS, environment variables for secrets | OAuth2 flows, CORS deep dive, rate limiting implementation |
 | performance           | Basic caching concepts, Redis as cache, when to use Celery | Profiling tools, connection pool tuning, memory optimization |
-| devops_backend        | Dockerfile basics, docker-compose, .env files, basic GitHub Actions CI | Multi-stage builds, secrets management, Kubernetes |
-| data_structures_algorithms | Lists vs sets vs dicts complexity, sorting, basic recursion applied to APIs | Graph algorithms, dynamic programming, advanced trees |
 | api_design            | RESTful conventions, HTTP methods, status codes, request validation, basic pagination | Hypermedia, versioning strategies, OpenAPI advanced |
 | testing_advanced      | Integration test setup, testing a FastAPI/Flask route end-to-end | TestContainers, e2e with real DB, hypothesis |
 
@@ -77,8 +75,6 @@ If it's too basic (what is a list, for loop syntax) → SKIP, already known.
 | databases                  | SQLAlchemy ORM basics, relationships, Alembic, N+1 problem |
 | security                   | Password hashing, JWT basics, secrets in env vars, HTTPS |
 | performance                | Caching basics, Redis as cache, Celery intro, profiling basics |
-| devops_backend             | Dockerfile, docker-compose, .env, basic CI with GitHub Actions |
-| data_structures_algorithms | List/dict/set complexity, common interview patterns for backend |
 | api_design                 | REST conventions, HTTP verbs, status codes, pagination, error responses |
 | testing_advanced           | Integration tests, testing routes, test database setup |
 

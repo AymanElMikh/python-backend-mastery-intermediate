@@ -1,0 +1,10 @@
+Covered concepts Day 1 :
+
+Conext_Manager
+Decorators_Basics
+New_vs__Init
+Descriptors
+MRR and C3 Linearization
+
+
+This should be revised tomorrow and go for newer concepts
