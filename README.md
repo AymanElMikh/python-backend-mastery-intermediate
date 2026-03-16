@@ -108,7 +108,6 @@ based on what roles you're interviewing for.
 | 9 | `databases` | SQLAlchemy ORM, relationships, Alembic, N+1 problem | 0 |
 | 10 | `security` | Password hashing, JWT basics, secrets in env vars | 0 |
 | 11 | `performance` | Caching basics, Redis, Celery intro | 0 |
-| 13 | `data_structures_algorithms` | List/dict/set complexity, common backend patterns | 0 |
 | 14 | `api_design` | REST conventions, HTTP verbs, status codes, pagination | 0 |
 | 15 | `testing_advanced` | Integration tests, testing routes, test DB setup | 0 |
 
