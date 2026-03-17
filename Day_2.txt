@@ -1,0 +1,7 @@
+45 min session covering in details : 
+
+
+Decorators
+Generators_yield 
+Closures
+Comprehensions

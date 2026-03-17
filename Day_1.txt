@@ -1,10 +1,33 @@
 Covered concepts Day 1 :
 
 Conext_Manager
-Decorators_Basics
 New_vs__Init
 Descriptors
-MRR and C3 Linearization
-
+MRR and C3 Linearizations
 
 This should be revised tomorrow and go for newer concepts
+
+1- New__vs__Init : 
+
+New is the objects allocators __ it creates and return the instance. __init__ is the object initializer 
+__ it configures the already-created instance. We override __new__ when we to controle the object creation it self : 
+Implementing Singletons, immutable types (subclassing int, str, tuple), or costume memory allocation.
+
+2- Descriptors 
+
+A Descriptor is any object that implement __get__, __set__ and/or __delete__ . When placed as a class attributes, Python calls
+these methods instead of returning/setting the attribute directly. You create a Descriptor when you need a reusable costume
+attributes logic __ like type validation, lazy loading, or access logging __ across many classes
+
+3- Context Manager
+
+A context manager is an object that defines setup and teardown logic that runs automatically when you enter and exit a with block. 
+You use them to guarantee cleanup happens even if an exception is raised. __ for things like closing files, realeasing database
+connections, or releasing locks. Writing a custom one is cleaner than try/finally beceause the cleanup logic lives in one 
+reusable place.
+
+4- MMR and C3 Linearization : 
+
+Python use C3 Linearization to compute a consitent MRO __ the order in which classes are searched for a method. super() doesn't mean
+call my parent it means call the next class in the MRO. in a dimone hierarchy, every class must call super().__init__() for cooperative
+multiple inheritance to work correctly; if any class breaks the chain, some base classes __init__methods are silenty skipped 
