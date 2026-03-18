@@ -1,8 +1,8 @@
 {
   "agent_level": "intermediate",
   "target_experience": "2-3 years",
-  "last_updated": "2026-03-15",
-  "total_covered": 50,
+  "last_updated": "2026-03-18",
+  "total_covered": 60,
   "categories": {
     "python_core": 10,
     "oop": 10,
@@ -11,7 +11,7 @@
     "fastapi": 10,
     "flask": 0,
     "unit_tests": 0,
-    "async_python": 0,
+    "async_python": 10,
     "databases": 0,
     "security": 0,
     "performance": 0,
@@ -417,6 +417,86 @@
       "title": "Middleware Basics — Cross-Cutting Request/Response Logic",
       "folder": "fastapi/050_middleware_basics",
       "date_covered": "2026-03-15"
+    },
+    {
+      "id": "051",
+      "category": "async_python",
+      "slug": "async_await_basics",
+      "title": "async/await Basics — Writing Non-Blocking Code",
+      "folder": "async_python/051_async_await_basics",
+      "date_covered": "2026-03-18"
+    },
+    {
+      "id": "052",
+      "category": "async_python",
+      "slug": "coroutines_explained",
+      "title": "Coroutines Explained — What They Are and How They Work",
+      "folder": "async_python/052_coroutines_explained",
+      "date_covered": "2026-03-18"
+    },
+    {
+      "id": "053",
+      "category": "async_python",
+      "slug": "asyncio_run",
+      "title": "asyncio.run() — The Entry Point to Async Python",
+      "folder": "async_python/053_asyncio_run",
+      "date_covered": "2026-03-18"
+    },
+    {
+      "id": "054",
+      "category": "async_python",
+      "slug": "asyncio_tasks",
+      "title": "asyncio Tasks — Running Coroutines Concurrently",
+      "folder": "async_python/054_asyncio_tasks",
+      "date_covered": "2026-03-18"
+    },
+    {
+      "id": "055",
+      "category": "async_python",
+      "slug": "asyncio_gather",
+      "title": "asyncio.gather() — Running Multiple Coroutines and Collecting Results",
+      "folder": "async_python/055_asyncio_gather",
+      "date_covered": "2026-03-18"
+    },
+    {
+      "id": "056",
+      "category": "async_python",
+      "slug": "when_to_use_async",
+      "title": "When to Use Async — I/O-Bound vs CPU-Bound",
+      "folder": "async_python/056_when_to_use_async",
+      "date_covered": "2026-03-18"
+    },
+    {
+      "id": "057",
+      "category": "async_python",
+      "slug": "async_context_managers",
+      "title": "Async Context Managers — `async with` for Resource Management",
+      "folder": "async_python/057_async_context_managers",
+      "date_covered": "2026-03-18"
+    },
+    {
+      "id": "058",
+      "category": "async_python",
+      "slug": "async_iterators",
+      "title": "Async Iterators — `async for` to Stream Data Without Blocking",
+      "folder": "async_python/058_async_iterators",
+      "date_covered": "2026-03-18"
+    },
+    {
+      "id": "059",
+      "category": "async_python",
+      "slug": "asyncio_timeout",
+      "title": "asyncio Timeouts — Cancelling Slow Operations",
+      "folder": "async_python/059_asyncio_timeout",
+      "date_covered": "2026-03-18"
+    },
+    {
+      "id": "060",
+      "category": "async_python",
+      "slug": "async_http_requests",
+      "title": "Async HTTP Requests — Making Non-Blocking External Calls",
+      "folder": "async_python/060_async_http_requests",
+      "date_covered": "2026-03-18"
     }
   ]
 }

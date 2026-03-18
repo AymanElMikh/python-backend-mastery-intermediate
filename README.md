@@ -7,7 +7,7 @@
 
 ## 📊 Progress
 
-![Concepts Covered](https://img.shields.io/badge/concepts%20covered-50-blue)
+![Concepts Covered](https://img.shields.io/badge/concepts%20covered-60-blue)
 ![Categories](https://img.shields.io/badge/categories-15-blue)
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 
@@ -78,6 +78,16 @@ based on what roles you're interviewing for.
 | 048 | fastapi | Request Validation — Field(), Query(), Custom Validators | [fastapi/048_request_validation](fastapi/048_request_validation) | 2026-03-15 |
 | 049 | fastapi | Background Tasks — Post-Response Side Effects | [fastapi/049_background_tasks](fastapi/049_background_tasks) | 2026-03-15 |
 | 050 | fastapi | Middleware Basics — Cross-Cutting Request/Response Logic | [fastapi/050_middleware_basics](fastapi/050_middleware_basics) | 2026-03-15 |
+| 051 | async_python | async/await Basics — Writing Non-Blocking Code | [async_python/051_async_await_basics](async_python/051_async_await_basics) | 2026-03-18 |
+| 052 | async_python | Coroutines Explained — What They Are and How They Work | [async_python/052_coroutines_explained](async_python/052_coroutines_explained) | 2026-03-18 |
+| 053 | async_python | asyncio.run() — The Entry Point to Async Python | [async_python/053_asyncio_run](async_python/053_asyncio_run) | 2026-03-18 |
+| 054 | async_python | asyncio Tasks — Running Coroutines Concurrently | [async_python/054_asyncio_tasks](async_python/054_asyncio_tasks) | 2026-03-18 |
+| 055 | async_python | asyncio.gather() — Running Multiple Coroutines and Collecting Results | [async_python/055_asyncio_gather](async_python/055_asyncio_gather) | 2026-03-18 |
+| 056 | async_python | When to Use Async — I/O-Bound vs CPU-Bound | [async_python/056_when_to_use_async](async_python/056_when_to_use_async) | 2026-03-18 |
+| 057 | async_python | Async Context Managers — `async with` for Resource Management | [async_python/057_async_context_managers](async_python/057_async_context_managers) | 2026-03-18 |
+| 058 | async_python | Async Iterators — `async for` to Stream Data Without Blocking | [async_python/058_async_iterators](async_python/058_async_iterators) | 2026-03-18 |
+| 059 | async_python | asyncio Timeouts — Cancelling Slow Operations | [async_python/059_asyncio_timeout](async_python/059_asyncio_timeout) | 2026-03-18 |
+| 060 | async_python | Async HTTP Requests — Making Non-Blocking External Calls | [async_python/060_async_http_requests](async_python/060_async_http_requests) | 2026-03-18 |
 
 ---
 
@@ -90,6 +100,7 @@ based on what roles you're interviewing for.
 | 3 | 2026-03-15 | design_patterns | 021–030 | 10 |
 | 4 | 2026-03-15 | clean_architecture | 031–040 | 10 |
 | 5 | 2026-03-15 | fastapi | 041–050 | 10 |
+| 6 | 2026-03-18 | async_python | 051–060 | 10 |
 
 ---
 
@@ -104,7 +115,7 @@ based on what roles you're interviewing for.
 | 5 | `fastapi` | Routes, path/query params, Pydantic, Depends, status codes, HTTPException, APIRouter, validation, background tasks, middleware | **10** |
 | 6 | `flask` | Blueprints, request/response cycle, SQLAlchemy integration | 0 |
 | 7 | `unit_tests` | pytest, fixtures, mocking, parametrize | 0 |
-| 8 | `async_python` | async/await, asyncio basics, tasks, when to use async | 0 |
+| 8 | `async_python` | async/await, coroutines, asyncio.run/tasks/gather, IO vs CPU, async with/for, timeouts, async HTTP | **10** |
 | 9 | `databases` | SQLAlchemy ORM, relationships, Alembic, N+1 problem | 0 |
 | 10 | `security` | Password hashing, JWT basics, secrets in env vars | 0 |
 | 11 | `performance` | Caching basics, Redis, Celery intro | 0 |
